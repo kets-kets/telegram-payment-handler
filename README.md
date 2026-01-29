@@ -333,18 +333,6 @@ config = PaymentConfig(
 
 ---
 
-## 🤝 Вклад в Проект
-
-Приветствуются Pull Requests! Пожалуйста:
-
-1. Fork репозиторий
-2. Создайте feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit изменения (`git commit -m 'feat: add amazing feature'`)
-4. Push в branch (`git push origin feature/amazing-feature`)
-5. Откройте Pull Request
-
----
-
 ## 📄 Лицензия
 
 MIT License - см. [LICENSE](LICENSE)
