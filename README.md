@@ -304,26 +304,6 @@ event = await handler.handle_webhook(
 )
 ```
 
-### Секреты
-
-**НИКОГДА** не коммитьте API ключи в Git:
-
-```python
-# ❌ Плохо
-config = PaymentConfig(
-    shop_id="12345",
-    secret_key="live_abc123"
-)
-
-# ✅ Хорошо
-import os
-
-config = PaymentConfig(
-    shop_id=os.getenv("YOOKASSA_SHOP_ID"),
-    secret_key=os.getenv("YOOKASSA_SECRET_KEY")
-)
-```
-
 ---
 
 ## 📖 Связанные Проекты
